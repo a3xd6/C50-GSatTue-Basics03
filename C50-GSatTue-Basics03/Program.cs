@@ -118,9 +118,20 @@ namespace C50_GSatTue_Basics03
             #region Question 11
             // 11]------------------
 
-            int pages = 464;
-            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
-            Console.WriteLine(sizeLabel);
+            //int pages = 464;
+            //string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            //Console.WriteLine(sizeLabel);
+
+            #endregion
+
+            #region Question 12
+            // 12]------------------
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine($"{i+1}. {books[i]}");
+            }
 
             #endregion
         }
