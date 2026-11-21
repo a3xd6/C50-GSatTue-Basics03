@@ -29,10 +29,20 @@ namespace C50_GSatTue_Basics03
             #region Question 3
             // 3]---------------
 
-            StringBuilder sb= new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             sb.Append("Book List");
             sb.Append(" - Updated");
             Console.WriteLine(sb);
+
+            #endregion
+
+            #region Question 4
+            // 4]----------------
+            // شيل الكومنت عن السؤال الي فات كمان معاه علشان بكمل عليه
+
+            sb.Replace("Book List", "Libraray");
+            Console.WriteLine(sb);
+
 
             #endregion
         }
