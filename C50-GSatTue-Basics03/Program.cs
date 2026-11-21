@@ -164,12 +164,25 @@ namespace C50_GSatTue_Basics03
             #region Question 15
             // 15]-------------
 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int count = 1;
+            //foreach (string book in books)
+            //{
+            //    Console.WriteLine($"{count}. {book}");
+            //    count++;
+            //}
+
+            #endregion
+
+            #region Question 16
+            // 16]-----------------
+
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            int count = 1;
-            foreach (string book in books)
+            for (int i = 0; i < books.Length; i++)
             {
-                Console.WriteLine($"{count}. {book}");
-                count++;
+                if (books[i] == "Refactoring")
+                    break;
+                Console.WriteLine($"{i + 1}. {books[i]}");
             }
 
             #endregion
