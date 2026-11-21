@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Text;
 
 namespace C50_GSatTue_Basics03
 {
@@ -19,9 +20,19 @@ namespace C50_GSatTue_Basics03
             #region Question 2
             // 2]-------------------
 
-            string str1 = "Clean Code";
-            string str2 = "Clean Code";
-            Console.WriteLine(object.ReferenceEquals(str1,str2));
+            //string str1 = "Clean Code";
+            //string str2 = "Clean Code";
+            //Console.WriteLine(object.ReferenceEquals(str1,str2));
+
+            #endregion
+
+            #region Question 3
+            // 3]---------------
+
+            StringBuilder sb= new StringBuilder();
+            sb.Append("Book List");
+            sb.Append(" - Updated");
+            Console.WriteLine(sb);
 
             #endregion
         }
