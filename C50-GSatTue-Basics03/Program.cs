@@ -87,12 +87,31 @@ namespace C50_GSatTue_Basics03
             #region Question 9
             // 9]---------------
 
-            int pages = 464;
-            bool isAvailable = false;
-            if(pages>300 && isAvailable)
-                Console.WriteLine("You can borrow this book");
-            else
-                Console.WriteLine("You cannot");
+            //int pages = 464;
+            //bool isAvailable = false;
+            //if(pages>300 && isAvailable)
+            //    Console.WriteLine("You can borrow this book");
+            //else
+            //    Console.WriteLine("You cannot");
+
+            #endregion
+
+            #region Question 10
+            // 10]-------------------
+
+            string title = "Refactoring";
+            switch (title)
+            {
+                case ("Clean Code"):
+                    Console.WriteLine("Great choice!");
+                    break;
+                case ("Refactoring"):
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
 
             #endregion
         }
