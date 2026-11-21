@@ -205,23 +205,24 @@ namespace C50_GSatTue_Basics03
             #region Question 18
             // 18]--------------------
 
-            PrintFirstBook();
+            //PrintFirstBook();
 
             #endregion
 
 
         }
+
         #region Question 18 (function)
         // 18]---------------
 
-        public static void PrintFirstBook()
-        {
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            if (books.Length == 0)
-                return;
-            else
-                Console.WriteLine(books[0]);
-        }
+        //public static void PrintFirstBook()
+        //{
+        //    string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+        //    if (books.Length == 0)
+        //        return;
+        //    else
+        //        Console.WriteLine(books[0]);
+        //}
 
         #endregion
     }
