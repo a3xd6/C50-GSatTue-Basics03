@@ -67,9 +67,20 @@ namespace C50_GSatTue_Basics03
             #region Question 7
             // 7]----------------
 
-            string title = "CLean Code";
+            //string title = "CLean Code";
+            //int pages = 464;
+            //Console.WriteLine(string.Format("Book: {0}, Pages: {1}",title,pages));
+
+            #endregion
+
+            #region Question 8
+            // 8]-----------------
+
             int pages = 464;
-            Console.WriteLine(string.Format("Book: {0}, Pages: {1}",title,pages));
+            if(pages>300)
+                Console.WriteLine("Long Book");
+            else
+                Console.WriteLine("Short Book");
 
             #endregion
         }
