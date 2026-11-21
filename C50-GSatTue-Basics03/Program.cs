@@ -58,9 +58,18 @@ namespace C50_GSatTue_Basics03
             #region Question 6
             // 6]---------------
 
+            //string title = "CLean Code";
+            //int pages = 464;
+            //Console.WriteLine($"Book: {title}, Pages: {pages}");
+
+            #endregion
+
+            #region Question 7
+            // 7]----------------
+
             string title = "CLean Code";
             int pages = 464;
-            Console.WriteLine($"Book: {title}, Pages: {pages}");
+            Console.WriteLine(string.Format("Book: {0}, Pages: {1}",title,pages));
 
             #endregion
         }
