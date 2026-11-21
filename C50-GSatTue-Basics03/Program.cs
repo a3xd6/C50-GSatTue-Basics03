@@ -177,12 +177,27 @@ namespace C50_GSatTue_Basics03
             #region Question 16
             // 16]-----------------
 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "Refactoring")
+            //        break;
+            //    Console.WriteLine($"{i + 1}. {books[i]}");
+            //}
+
+            #endregion
+
+            #region Question 17
+            // 17]---------------------
+
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int count = 1;
             for (int i = 0; i < books.Length; i++)
             {
-                if (books[i] == "Refactoring")
-                    break;
-                Console.WriteLine($"{i + 1}. {books[i]}");
+                if (books[i] == "The Pragmatic Programmer")
+                    continue;
+                Console.WriteLine($"{count}. {books[i]}");
+                count++;
             }
 
             #endregion
