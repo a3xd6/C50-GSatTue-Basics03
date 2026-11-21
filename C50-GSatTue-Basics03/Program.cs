@@ -76,11 +76,23 @@ namespace C50_GSatTue_Basics03
             #region Question 8
             // 8]-----------------
 
+            //int pages = 464;
+            //if(pages>300)
+            //    Console.WriteLine("Long Book");
+            //else
+            //    Console.WriteLine("Short Book");
+
+            #endregion
+
+            #region Question 9
+            // 9]---------------
+
             int pages = 464;
-            if(pages>300)
-                Console.WriteLine("Long Book");
+            bool isAvailable = false;
+            if(pages>300 && isAvailable)
+                Console.WriteLine("You can borrow this book");
             else
-                Console.WriteLine("Short Book");
+                Console.WriteLine("You cannot");
 
             #endregion
         }
