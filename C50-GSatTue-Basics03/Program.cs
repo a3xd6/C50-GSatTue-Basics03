@@ -99,19 +99,28 @@ namespace C50_GSatTue_Basics03
             #region Question 10
             // 10]-------------------
 
-            string title = "Refactoring";
-            switch (title)
-            {
-                case ("Clean Code"):
-                    Console.WriteLine("Great choice!");
-                    break;
-                case ("Refactoring"):
-                    Console.WriteLine("Nice pick!");
-                    break;
-                default:
-                    Console.WriteLine("Never heard of it");
-                    break;
-            }
+            //string title = "Refactoring";
+            //switch (title)
+            //{
+            //    case ("Clean Code"):
+            //        Console.WriteLine("Great choice!");
+            //        break;
+            //    case ("Refactoring"):
+            //        Console.WriteLine("Nice pick!");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Never heard of it");
+            //        break;
+            //}
+
+            #endregion
+
+            #region Question 11
+            // 11]------------------
+
+            int pages = 464;
+            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            Console.WriteLine(sizeLabel);
 
             #endregion
         }
