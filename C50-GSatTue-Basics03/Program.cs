@@ -138,13 +138,26 @@ namespace C50_GSatTue_Basics03
             #region Question 13
             // 13]------------------
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            int i=0;
-            while (i<books.Length)
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int i=0;
+            //while (i<books.Length)
+            //{
+            //    Console.WriteLine($"{i + 1}. {books[i]}");
+            //    i++;
+            //}
+
+            #endregion
+
+            #region Question 14
+            // 14]----------------
+
+            int i = 0;
+            do
             {
-                Console.WriteLine($"{i + 1}. {books[i]}");
+                Console.WriteLine("Checking book...");
                 i++;
             }
+            while (i<3);
 
             #endregion
         }
