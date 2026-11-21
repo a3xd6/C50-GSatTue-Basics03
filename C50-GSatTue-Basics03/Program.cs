@@ -151,13 +151,26 @@ namespace C50_GSatTue_Basics03
             #region Question 14
             // 14]----------------
 
-            int i = 0;
-            do
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    i++;
+            //}
+            //while (i<3);
+
+            #endregion
+
+            #region Question 15
+            // 15]-------------
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int count = 1;
+            foreach (string book in books)
             {
-                Console.WriteLine("Checking book...");
-                i++;
+                Console.WriteLine($"{count}. {book}");
+                count++;
             }
-            while (i<3);
 
             #endregion
         }
