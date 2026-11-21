@@ -29,10 +29,10 @@ namespace C50_GSatTue_Basics03
             #region Question 3
             // 3]---------------
 
-            StringBuilder sb = new StringBuilder();
-            sb.Append("Book List");
-            sb.Append(" - Updated");
-            Console.WriteLine(sb);
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("Book List");
+            //sb.Append(" - Updated");
+            //Console.WriteLine(sb);
 
             #endregion
 
@@ -40,10 +40,21 @@ namespace C50_GSatTue_Basics03
             // 4]----------------
             // شيل الكومنت عن السؤال الي فات كمان معاه علشان بكمل عليه
 
-            sb.Replace("Book List", "Libraray");
-            Console.WriteLine(sb);
+            //sb.Replace("Book List", "Libraray");
+            //Console.WriteLine(sb);
 
 
+            #endregion
+
+            #region Question 5
+            // 5]----------------
+
+            string title = "CLean Code";
+            int pages = 464;
+            //"Book: Clean Code,Pages: 464";
+            Console.WriteLine("Book: " + title + ", " + "Pages: " + pages);
+
+    
             #endregion
         }
     }
